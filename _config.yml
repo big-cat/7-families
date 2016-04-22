@@ -3,6 +3,9 @@ title: 7 Families
 url: http://7families.siteleaf.net
 timezone: UTC
 collections:
+  families:
+    title: Families
+    output: true
   posts:
     title: Posts
     output: true
