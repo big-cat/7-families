@@ -1,0 +1,88 @@
+/**
+ * @mixins.less
+ * @author darryl@therelative.co.uk
+ * A core library of mixins useful for any project.
+ *
+ */
+
+.opacity(@opacity: 1)
+{
+  @ie-opacity: @opacity * 100;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@{ie-opacity})";
+  filter: alpha(opacity=@ie-opacity);
+  -webkit-opacity: @opacity;
+  -moz-opacity: @opacity;
+  -khtml-opacity: @opacity;
+  opacity: @opacity;
+}
+
+.scale(@scale: 0.5)
+{
+  transform:scale(@scale);
+  -ms-transform:scale(@scale) translateZ(0); /* IE 9 */
+  -moz-transform:scale(@scale) translateZ(0); /* Firefox */
+  -webkit-transform:scale(@scale) translateZ(0); /* Safari and Chrome */
+  -o-transform:scale(@scale) translateZ(0); /* Opera */
+}
+
+.rounded(@radius: 5px)
+{
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;  
+}
+
+.rounded-individual(@topright: 0, @bottomright: 0, @bottomleft: 0, @topleft: 0) 
+{
+  -webkit-border-top-right-radius: @topright;
+  -webkit-border-bottom-right-radius: @bottomright;
+  -webkit-border-bottom-left-radius: @bottomleft;
+  -webkit-border-top-left-radius: @topleft;
+  -moz-border-radius-topright: @topright;
+  -moz-border-radius-bottomright: @bottomright;
+  -moz-border-radius-bottomleft: @bottomleft;
+  -moz-border-radius-topleft: @topleft;
+  border-top-right-radius: @topright;
+  border-bottom-right-radius: @bottomright;
+  border-bottom-left-radius: @bottomleft;
+  border-top-left-radius: @topleft;
+}
+
+.gradient(@colorOne, @colorTwo)
+{
+  background: @colorTwo; /* Old browsers */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@colorOne', endColorstr='@colorTwo'); /* for IE */
+  background: -moz-linear-gradient(top,  @colorTwo 0%, @colorOne 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@colorTwo), color-stop(100%,@colorOne)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  @colorTwo 0%,@colorOne 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  @colorTwo 0%,@colorOne 100%); /* Opera 11.10+ */
+  background: linear-gradient(to bottom,  @colorTwo 0%,@colorOne 100%); /* W3C */
+}
+
+.radial-gradient (@colorOne, @colorTwo)
+{
+    background: @colorOne;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@colorOne', endColorstr='@colorTwo',GradientType=1 );
+    background: -moz-radial-gradient(center, ellipse cover,  @colorOne 33%, @colorTwo 99%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(33%,@colorOne), color-stop(99%,@colorTwo));
+    background: -webkit-radial-gradient(center, ellipse cover,  @colorOne 33%,@colorTwo 99%);
+    background: -o-radial-gradient(center, ellipse cover,  @colorOne 33%,@colorTwo 99%);
+    background: -ms-radial-gradient(center, ellipse cover,  @colorOne 33%,@colorTwo 99%);
+    background: radial-gradient(ellipse at center,  @colorOne 33%,@colorTwo 99%);
+}
+
+.shadow(@color: #bbb)
+{
+  -moz-box-shadow:    0 0 2px 2px @color;
+  -webkit-box-shadow: 0 0 2px 2px @color;
+  box-shadow:         0 0 2px 2px @color;
+}
+
+.rotate(@degree: 5deg)
+{
+  transform:rotate(@degree);
+  -ms-transform:rotate(@degree);     /* IE 9 */
+  -moz-transform:rotate(@degree);    /* Firefox */
+  -webkit-transform:rotate(@degree); /* Safari and Chrome */
+  -o-transform:rotate(@degree);      /* Opera */
+}
