@@ -1,0 +1,355 @@
+@import "bootstrap.min.css";
+@import "font-awesome.min.css";
+@import "generic.css";
+/**
+* @screenname.css
+* The complete stylesheet for 7 Families
+*
+* Contains all the styling for the site, including any responsive design tweaks
+*/
+/**
+ * @mixins.less
+ * @author darryl@therelative.co.uk
+ * A core library of mixins useful for any project.
+ *
+ */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  background: #ffffff url("../images/bg_main.jpg") repeat top left;
+  color: #898989;
+  margin-bottom: 60px;
+}
+body.no-margin {
+  background: #ffffff url("../images/bg_thanks.png") repeat top left;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+a.social-links {
+  color: #474747;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+h1 {
+  color: #898989;
+  font-size: 24px;
+}
+h2 {
+  color: #898989;
+  font-size: 22px;
+}
+h2.no-margin {
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+.btn.btn-primary {
+  background: #96d22c;
+  border: none;
+  width: 240px;
+}
+.navbar {
+  background: none;
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eee;
+  border-left: none;
+  border-right: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.navbar ul li {
+  font-size: 18px;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar .navbar-brand {
+  padding-top: 10px;
+  padding-left: 50px;
+}
+.flex {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.primary-content {
+  min-height: 265px;
+}
+.timeline {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.timeline img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.timeline h3 {
+  text-decoration: underline;
+}
+.timeline p {
+  color: #fff;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.orange-row {
+  background: #f39221;
+}
+.orange-row h3 {
+  color: #e52f1b;
+}
+.orange-row a {
+  color: #fff;
+  text-decoration: underline;
+}
+.red-row {
+  background: #eb371e;
+}
+.red-row h3 {
+  color: #f0dd1e;
+}
+.red-row a {
+  color: #fff;
+  text-decoration: underline;
+}
+.teal-row {
+  background: #4ebdd9;
+}
+.teal-row h3 {
+  color: #124483;
+}
+.teal-row a {
+  color: #fff;
+  text-decoration: underline;
+}
+.blue-row {
+  background: #124483;
+}
+.blue-row h3 {
+  color: #f0dd1e;
+}
+.blue-row a {
+  color: #fff;
+  text-decoration: underline;
+}
+.borders {
+  background: #fff;
+  border: 10px solid #eee;
+  margin-bottom: 20px;
+}
+.borders.header {
+  border-top: none;
+}
+.borders.header.short-header {
+  padding-top: 18px;
+}
+.borders.background-car {
+  background: #ffffff url("../images/bg_red-car.jpg") no-repeat bottom right;
+}
+.borders.video-border {
+  border: 6px solid #eee;
+}
+.blue-text {
+  color: #4abcd6;
+}
+.blue-text.blue-large {
+  font-size: 24px;
+  padding-top: 10px;
+}
+a.blue-text:hover {
+  color: #4abcd6;
+}
+.dark-blue-text {
+  color: #124483;
+}
+a.dark-blue-color:hover {
+  color: #124483;
+}
+.green-text {
+  color: #98c336;
+}
+a.green-text:hover {
+  color: #98c336;
+}
+.orange-text {
+  color: #f7921e !important;
+}
+.orange-text.with-line {
+  font-size: 34px;
+  text-decoration: underline;
+}
+a.orange-text:hover {
+  color: #f7921e;
+}
+.pink-text {
+  color: #ed81b2;
+}
+a.pink-text:hover {
+  color: #ed81b2;
+}
+.red-text {
+  color: #f45266;
+}
+.red-text.red-large {
+  font-size: 30px;
+}
+a.red-text:hover {
+  color: #f45266;
+}
+.dark-red-text {
+  color: #d8194d;
+}
+a.dark-red-text:hover {
+  color: #d8194d;
+}
+.teal-text {
+  color: #2db4a1;
+}
+a.teal-text:hover {
+  color: #2db4a1;
+}
+.modal-dialog .modal-content {
+  background: #000;
+}
+.modal-dialog .modal-footer {
+  border: none;
+  padding: 0;
+}
+.modal-dialog .modal-body {
+  padding: 10px;
+}
+.modal-dialog button.close {
+  color: #f45266;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  float: relative;
+  text-shadow: none;
+}
+.modal-dialog .modal-header {
+  border: none;
+}
+.modal-dialog .modal-header button.close {
+  color: #000;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+.modal-backdrop.in {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+}
+.carousel h1 {
+  margin-top: 1em;
+  margin-left: 20%;
+  color: #898989;
+  font-size: 30px;
+}
+.carousel p {
+  color: #898989;
+  font-size: 16px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.carousel .carousel-inner {
+  min-height: 350px;
+}
+.carousel .carousel-control {
+  background: none !important;
+  background-image: none !important;
+  width: 4%;
+}
+.carousel .carousel-control .glyphicon {
+  font-size: 40px;
+  color: #f45266;
+}
+.carousel .carousel-indicators li {
+  border: 1px solid #f45266;
+  height: 16px;
+  width: 16px;
+}
+.carousel .carousel-indicators li.active {
+  height: 17px;
+  width: 17px;
+  background: #f45266;
+}
+.share img {
+  padding-bottom: 20px;
+}
+.video-link {
+  color: #fff;
+  cursor: pointer;
+  line-height: 20em;
+  text-decoration: underline;
+}
+#footer {
+  background: #eeeeee;
+  bottom: 0;
+  color: #474747;
+  font-size: 12px;
+  height: 60px;
+  margin-top: 60px;
+  padding-top: 20px;
+  position: absolute;
+  width: 100%;
+}
+#footer p {
+  margin-left: 1em;
+}
+#footer .social-links {
+  margin-right: 1em;
+}
+@media (max-width: 767px) {
+  .btn.btn-primary {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .carousel h1 {
+    font-size: 25px;
+  }
+  .carousel p {
+    font-size: 14px;
+  }
+  .carousel .carousel-indicators li {
+    height: 9px;
+    width: 9px;
+  }
+  .carousel .carousel-indicators li.active {
+    height: 11px;
+    width: 11px;
+  }
+  .navbar .navbar-brand {
+    padding-left: 5px;
+  }
+  .timeline {
+    padding-top: 5px;
+    padding-bottom: 5p;
+  }
+  .timeline p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

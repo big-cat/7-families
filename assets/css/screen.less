@@ -1,0 +1,409 @@
+/**
+* @screenname.css
+* The complete stylesheet for 7 Families
+*
+* Contains all the styling for the site, including any responsive design tweaks
+*/
+@import "bootstrap.min.css";
+@import "font-awesome.min.css";
+@import "color.less";
+@import "generic.css";
+@import "mixins.less";
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background: #fff url("../images/bg_main.jpg") repeat top left;
+    color: @grey-color;
+    margin-bottom: 60px;
+    &.no-margin {
+        background: #fff url("../images/bg_thanks.png") repeat top left;
+        margin-bottom: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+    &.social-links {
+        color: #474747;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+h1 {
+    color: @grey-color;
+    font-size: 24px;
+}
+
+h2 {
+    color: @grey-color;
+    font-size: 22px;
+    &.no-margin {
+        margin: 0 0 12px 0;
+        padding: 0;
+    }
+}
+
+.btn {
+    &.btn-primary {
+        background: #96d22c;
+        border: none;
+        width: 240px;
+    }
+}
+
+.navbar {
+    background: none;
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eee;
+    border-left: none;
+    border-right: none;
+    .rounded(0);
+    ul {
+        li {
+            font-size: 18px;
+        }
+    }
+    .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    
+    .navbar-brand {
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+}
+
+.flex {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.primary-content {
+    min-height: 265px;
+}
+
+.timeline {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h3 {
+        text-decoration: underline;
+    }
+    p {
+        color: #fff;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+.orange-row {
+    background: @orange-bg;
+    h3 {
+        color: #e52f1b;
+    }
+    a {
+        color: #fff;
+        text-decoration: underline;
+    }
+}
+
+.red-row {
+    background: @red-bg;
+    h3 {
+        color: #f0dd1e;
+    }
+    a {
+        color: #fff;
+        text-decoration: underline;
+    }
+}
+
+.teal-row {
+    background: @teal-bg;
+    h3 {
+        color: @blue-bg;
+    }
+    a {
+        color: #fff;
+        text-decoration: underline;
+    }
+}
+
+.blue-row {
+    background: @blue-bg;
+    h3 {
+        color: #f0dd1e;
+    }
+    a {
+        color: #fff;
+        text-decoration: underline;
+    }
+}
+
+.borders {
+    background: #fff;
+    border: 10px solid #eee;
+    margin-bottom: 20px;
+    &.header {
+        border-top: none;
+        &.short-header {
+            padding-top: 18px;
+        }
+    }
+    &.background-car {
+        background: #fff url("../images/bg_red-car.jpg") no-repeat bottom right;
+    }
+    &.video-border {
+        border: 6px solid #eee;
+    }
+}
+
+.blue-text {
+    color: @blue-color;
+    &.blue-large {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+}
+
+a.blue-text {
+    &:hover {
+        color: @blue-color;
+    }
+}
+
+.dark-blue-text {
+    color: @dark-blue-color;
+}
+
+a.dark-blue-color {
+    &:hover {
+        color: @dark-blue-color;
+    }
+}
+
+.green-text {
+    color: @green-color;
+}
+
+a.green-text {
+    &:hover {
+        color: @green-color;
+    }
+}
+
+.orange-text {
+    color: @orange-color !important;
+    &.with-line {
+        font-size: 34px;
+        text-decoration: underline;
+    }
+}
+
+a.orange-text {
+    &:hover {
+        color: @orange-color;
+    }
+}
+
+.pink-text {
+    color: @pink-color;
+}
+
+a.pink-text {
+    &:hover {
+        color: @pink-color;
+    }
+}
+
+.red-text {
+    color: @red-color;
+    &.red-large {
+        font-size: 30px;
+    }
+}
+
+a.red-text {
+    &:hover {
+        color: @red-color;
+    }
+}
+
+.dark-red-text {
+    color: @dark-red-color;
+}
+
+a.dark-red-text {
+    &:hover {
+        color: @dark-red-color;
+    }
+}
+
+.teal-text {
+    color: @teal-color;
+}
+
+a.teal-text {
+    &:hover {
+        color: @teal-color;
+    }
+}
+
+.modal-dialog {
+    .modal-content {
+        background: #000;
+    }
+    .modal-footer {
+        border: none;
+        padding: 0;
+    }
+    .modal-body {
+        padding: 10px;
+    }
+    button.close {
+        color: @red-color;
+        .opacity(1);
+        float: relative;
+        text-shadow: none;
+    }
+    .modal-header {
+        border: none;
+        button.close {
+            color: #000;
+            .opacity(1);
+        }
+    }
+}
+
+.modal-backdrop.in {
+    .opacity(0.7);
+}
+
+.carousel {
+    h1 {
+        margin-top: 1em;
+        margin-left: 20%;
+        color: @grey-color;
+        font-size: 30px;
+    }
+    p {
+        color: @grey-color;
+        font-size: 16px;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    .carousel-inner {
+        min-height: 350px;
+    }
+    .carousel-control {
+        background: none !important;
+        background-image: none !important;
+        width: 4%;
+        .glyphicon {
+            font-size: 40px;
+            color: @red-color;
+        }
+    }
+    .carousel-indicators {
+        li {
+            border: 1px solid @red-color;
+            height: 16px;
+            width: 16px;
+            &.active {
+                height: 17px;
+                width: 17px;
+                background: @red-color;
+            }
+        }
+    }
+}
+
+.share {
+    img {
+        padding-bottom: 20px;
+    }
+}
+
+.video-link {
+    color: #fff;
+    cursor: pointer;
+    line-height: 20em;
+    text-decoration: underline;
+}
+
+#footer {
+    background: #eeeeee;
+    bottom: 0;
+    color: #474747;
+    font-size: 12px;
+    height: 60px;
+    margin-top: 60px;
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    p {
+        margin-left: 1em;
+    }
+    .social-links {
+        margin-right: 1em;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn {
+        &.btn-primary {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+    }
+    .carousel {
+        h1 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 14px;
+        }
+        .carousel-indicators {
+            li {
+                height: 9px;
+                width: 9px;
+                &.active {
+                    height: 11px;
+                    width: 11px;
+                }
+            }
+        }
+    }
+    .navbar {
+        .navbar-brand {
+            padding-left: 5px;
+        }
+    }
+    .timeline {
+        padding-top: 5px;
+        padding-bottom: 5p;
+        p {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}
