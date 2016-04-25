@@ -9,7 +9,7 @@ collections:
     permalink: "/:path-family"
     defaults:
     - values:
-        layout: "family"
+        layout: family
   posts:
     title: Posts
     output: true
@@ -19,7 +19,7 @@ collections:
     permalink: "/:path-timeline"
     defaults:
     - values:
-        layout: "timeline"
+        layout: timeline
   uploads:
     title: Uploads
     output: true
