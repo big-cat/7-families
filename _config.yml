@@ -6,12 +6,14 @@ collections:
   families:
     title: Families
     output: true
+    permalink: "/:path-family"
   posts:
     title: Posts
     output: true
   timelines:
     title: Timelines
     output: true
+    permalink: "/:path-timeline"
   uploads:
     title: Uploads
     output: true
