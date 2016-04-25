@@ -1,6 +1,7 @@
 ---
 title: Snell
 date: 2016-04-22 15:44:00 Z
+position: 2
 name: Snell
 thumbnail: "/uploads/thumb_snell-family.jpg"
 video: https://www.youtube.com/embed/RdcxdCnJZ7g

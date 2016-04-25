@@ -1,6 +1,7 @@
 ---
 title: Pinder
 date: 2016-04-22 15:43:00 Z
+position: 6
 name: Pinder
 thumbnail: "/uploads/thumb_pinder-family.jpg"
 video: https://www.youtube.com/embed/ybVZZ_I0rKo
