@@ -4,6 +4,7 @@ date: 2016-04-22 15:44:00 Z
 name: Norbert
 thumbnail: "/uploads/thumb_norbert-family.jpg"
 video: https://www.youtube.com/embed/fBN1291o5kQ
+layout: family
 ---
 
 In his mid twenties, Paul Norbert was diagnosed with bipolar disorder – an often misconceived and vilified condition with far reaching effects.
