@@ -19,6 +19,13 @@ event:
     rewards. The pure effort and determination are inspiring.
   image: 
   video: https://www.youtube.com/embed/7hSumtPCSms
+- date: 2015-03-05 00:00:00.000000000 Z
+  text: Here we meet Paul's rehab assistant, Emma, whose help with every day activities
+    like eating and dressing, as well as physical and speech therapy, helps to relieve
+    some of the pressure on the Pickfords relationship and maintain the positivity
+    that the couple rely on.
+  image: 
+  video: https://www.youtube.com/embed/RmIJ8ebd7ro
 layout: timeline
 ---
 
