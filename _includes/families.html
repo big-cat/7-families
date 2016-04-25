@@ -20,20 +20,20 @@
                         <div class="row">
                             {% for family in site.families %}
                             <div class="col-md-3">
-                                <a class="orange-text" href="{{ family.url }}" title="Click here to view The Pickford Family page."><img class="flex" src="{{ family.thumbnail }}" alt="The Pickford Family" />
+                                <a class="orange-text" href="{{ family.url }}" title="Click here to view The {{ family.name }} Family page."><img class="flex" src="{{ family.thumbnail }}" alt="The Pickford Family" />
                                 </a>
-                                <a class="orange-text" href="pickford-family.html" title="Click here to view The Pickford Family page.">
+                                <a class="orange-text" href="{{ family.url }}" title="Click here to view The {{ family.name }} Family page.">
                                     <h2 class="orange-text">
                                         The {{ family.name }}<br />Family
                                     </h2>
                                 </a>
                                 <p>
-                                    <a class="orange-text" href="{{ family.url }}" title="Click here to view The Pickford Family page.">View The Family's Page</a>
+                                    <a class="orange-text" href="{{ family.url }}" title="Click here to view The {{ family.name }} Family page.">View The Family's Page</a>
                                 </p>
                             </div>
                             {% endfor %}
                             <div class="col-md-3">
-                                <a class="pink-text" href="https://www.facebook.com/7Families" rel="external" target="_blank" title="Click here to link to the 7 Families Facebook page. This is an external link."><img class="flex" src="assets/images/img_visit-facebook.jpg" alt="Visit the 7 Families Facebook Page" />
+                                <a class="pink-text" href="https://www.facebook.com/7Families" rel="external" target="_blank" title="Click here to link to the 7 Families Facebook page. This is an external link."><img class="flex" src="/assets/images/img_visit-facebook.jpg" alt="Visit the 7 Families Facebook Page" />
                                 </a>
                             </div>
                         </div>

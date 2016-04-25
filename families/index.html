@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+    <!-- wrapper -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- left-col -->
+            <div class="col-md-2 hidden-xs hidden-sm">
+            </div>
+            <!-- /.left-col -->
+            <!-- middle-col -->
+            <div class="col-xs-12 col-md-8">
+{% assign families = site.families | reverse %}
+{% for family in families limit: 1 %}
+<!-- large-video-row -->
+                <div class="row borders">
+                    <div class="col-md-12">
+                        <!-- top-text-row -->
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h1>
+                                    Meet The Families
+                                </h1>
+                                <h2 class="dark-blue-text">
+                                    Meet the {{ family.name }} Family
+                                </h2>
+                            </div>
+                        </div>
+                        <!-- /.top=text-row -->
+                        <!-- video-row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="embed-responsive embed-responsive-16by9 borders video-border">
+                                    <iframe class="embed-responsive-item" src="{{ family.video }}" title="View The Knights Family story."></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.video-row -->
+                        <!-- latest-family-row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <!-- left-side -->
+                                    <div class="col-md-12">
+                                    <div class="text-cols-2">
+                                        {{ family.content }}
+                                    </div>
+                                    </div>
+                                        <div class="col-md-6">
+                                        </div>
+                                        <div class="col-md-6">
+                                        <a href="{{ family.url }}" class="orange-text" title="Click here to view The {{ page.name }} Family Timeline.">
+                                            <h3>
+                                                View The {{ family.name }} Family
+                                            </h3>
+                                        </a>
+                                    </div>
+                                    <!-- /.right-side -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.latest-family-row -->
+                    </div>
+                </div>
+                <!-- /.large-video-row -->
+                {% endfor %}
+            </div>
+        </div>
+</div>
