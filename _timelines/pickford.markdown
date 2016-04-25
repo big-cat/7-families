@@ -34,6 +34,11 @@ event:
     speech by typing a message - giving him a voice.
   image: 
   video: https://www.youtube.com/embed/cZQ2WlWCuHs
+- date: 2015-05-26 00:00:00.000000000 Z
+  text: Paul has been using a specialist piece of equipment called a Gloreha Glove
+    that allows him to work on improving the mobility of his left hand.
+  image: 
+  video: https://www.youtube.com/embed/o2iBdqa45Dk
 layout: timeline
 ---
 
