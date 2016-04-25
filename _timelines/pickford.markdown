@@ -6,5 +6,6 @@ event:
   text: Filming starts in Bolton with Paul and Vicky Pickford.
   image: "/uploads/img_placeholder-pickford-timeline.png"
   video: 
+layout: timeline
 ---
 
