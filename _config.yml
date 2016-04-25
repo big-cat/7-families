@@ -17,6 +17,9 @@ collections:
     title: Timelines
     output: true
     permalink: "/:path-timeline"
+    defaults:
+    - values:
+        layout: timeline
   uploads:
     title: Uploads
     output: true
