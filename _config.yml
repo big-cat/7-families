@@ -17,6 +17,11 @@ collections:
     title: Timelines
     output: true
     permalink: "/:path-timeline"
+    event:
+    - - date: 
+        text: 
+        image: 
+        video: 
   uploads:
     title: Uploads
     output: true
