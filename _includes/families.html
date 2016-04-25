@@ -1,0 +1,46 @@
+<div class="container-fluid">
+        <div class="row">
+            <!-- left-col -->
+            <div class="col-md-2 hidden-xs hidden-sm">
+            </div>
+            <!-- /.left-col -->
+            <!-- middle-col -->
+            <div class="col-xs-12 col-md-8">
+<!-- meet-the-families-row -->
+                <div class="row borders">
+                    <div class="col-md-12">
+                        <!-- top-text-row -->
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h2>Meet The Families</h2>
+                            </div>
+                        </div>
+                        <!-- /.top-text-row -->
+                        <!-- families-row -->
+                        <div class="row">
+                            {% for family in site.families %}
+                            <div class="col-md-3">
+                                <a class="orange-text" href="{{ family.url }}" title="Click here to view The Pickford Family page."><img class="flex" src="{{ family.thumbnail }}" alt="The Pickford Family" />
+                                </a>
+                                <a class="orange-text" href="pickford-family.html" title="Click here to view The Pickford Family page.">
+                                    <h2 class="orange-text">
+                                        The {{ family.name }}<br />Family
+                                    </h2>
+                                </a>
+                                <p>
+                                    <a class="orange-text" href="{{ family.url }}" title="Click here to view The Pickford Family page.">View The Family's Page</a>
+                                </p>
+                            </div>
+                            {% endfor %}
+                            <div class="col-md-3">
+                                <a class="pink-text" href="https://www.facebook.com/7Families" rel="external" target="_blank" title="Click here to link to the 7 Families Facebook page. This is an external link."><img class="flex" src="assets/images/img_visit-facebook.jpg" alt="Visit the 7 Families Facebook Page" />
+                                </a>
+                            </div>
+                        </div>
+                        <!-- /.families-row -->
+                    </div>
+                </div>
+                <!-- /.meet-the-families-row -->
+            </div>
+    </div>
+</div>

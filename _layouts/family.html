@@ -1,3 +1,4 @@
+    {% include head.html %}
     <!-- wrapper -->
     <div class="container-fluid">
         <div class="row">
@@ -16,7 +17,7 @@
                                     Meet The Families
                                 </h1>
                                 <h2 class="orange-text">
-                                    Meet the Pickford Family
+                                    Meet the {{ page.name }} Family
                                 </h2>
                             </div>
                         </div>
@@ -25,7 +26,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="embed-responsive embed-responsive-16by9 borders video-border">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8lxpvI3lk8w?" title="View Paul Pickford's story."></iframe>
+                                    <iframe class="embed-responsive-item" src="{{ page.video }}" title="View the {{ page.name }} family story."></iframe>
                                 </div>
                             </div>
                         </div>
@@ -35,11 +36,17 @@
                             <div class="col-md-12">
                                 <div class="row">
                                     <!-- left-side -->
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
+                                    <div class="text-cols-2">
                                         {{ content }}
-                                        <a href="pickford-timeline.html" class="orange-text" title="Click here to view The Pickford Family Timeline.">
+                                    </div>
+                                    </div>
+                                        <div class="col-md-6">
+                                        </div>
+                                        <div class="col-md-6">
+                                        <a href="{{ page.name }}-timeline" class="orange-text" title="Click here to view The {{ page.name }} Family Timeline.">
                                             <h3>
-                                                View The {{ family.name }} Family Timeline
+                                                View The {{ page.name }} Family Timeline
                                             </h3>
                                         </a>
                                     </div>
@@ -54,3 +61,5 @@
                 </div>
                 </div>
                 </div>
+                {% include families.html %}
+                {% include foot.html %}

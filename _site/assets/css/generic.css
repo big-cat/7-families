@@ -19,3 +19,13 @@
   vertical-align: middle;
   float: none;
 }
+
+.text-cols-2 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: 24px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 24px; /* Firefox */
+    column-gap: 24px;
+}
