@@ -4,6 +4,7 @@ date: 2016-04-22 15:43:00 Z
 name: Pickford
 thumbnail: "/uploads/thumb_pickford-family.jpg"
 video: https://www.youtube.com/embed/8lxpvI3lk8w
+layout: family
 ---
 
 Paul Pickford from Bolton was fit and healthy and ran a car dealership until two years ago. In November 2012 at the age of 42 he suffered a brain stem stroke while at work. He is now paralysed and cared for by his wife Vicky.

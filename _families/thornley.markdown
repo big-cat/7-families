@@ -4,6 +4,7 @@ date: 2016-04-22 15:44:00 Z
 name: Thornley
 thumbnail: "/uploads/thumb_thornley-family.jpg"
 video: https://www.youtube.com/embed/tVUZLE40EPE
+layout: family
 ---
 
 In 2013 Nikki’s husband turned 40. To celebrate they decided to head off around Europe, child free for a couple of weeks, on two motorbikes. Unfortunately they never made it out of Scotland.

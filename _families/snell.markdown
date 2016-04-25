@@ -4,6 +4,7 @@ date: 2016-04-22 15:44:00 Z
 name: Snell
 thumbnail: "/uploads/thumb_snell-family.jpg"
 video: https://www.youtube.com/embed/RdcxdCnJZ7g
+layout: family
 ---
 
 Until last summer Graeme Snell was a fit and healthy Hartlepool United fan. He worked full time as an Advanced Health and Wellbeing Practitioner and described himself as being very fit.
