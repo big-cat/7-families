@@ -1,0 +1,21 @@
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters [class^="col-"],
+.row.no-gutters [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.carousel-indicators {
+  position: relative;
+  height: 25px;
+}
+.carousel-control {
+  margin-bottom: 25px;
+}
+.v-center {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}

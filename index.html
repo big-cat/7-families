@@ -1,7 +1,149 @@
 ---
 layout: default
+home: true
 ---
+<div class="container-fluid">
+        <div class="row">
+            <!-- left-col -->
+            <div class="col-md-2 hidden-xs hidden-sm">
+            </div>
+            <!-- /.left-col -->
+            <!-- middle-col -->
+            <div class="col-xs-12 col-md-8">
+<!-- large-video-row -->
+                <div class="row borders">
+                    <div class="col-md-12">
+                        <!-- top-text-row -->
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h1>
+                                    7 Families is a charity led campaign to provide a tax-free
+                                    <br />income for one year to seven people who have lost their
+                                    <br />income because of a serious or long-term illness or disability.
+                                </h1>
+                            </div>
+                        </div>
+                        <!-- /.top=text-row -->
+                        <!-- video-row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="embed-responsive embed-responsive-16by9 borders video-border">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SB-FGlGFFmc" title="We follow seven families whose lives have been changed by unexpected illness or disability. Meet the families involved now and watch their stories unfold."></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.video-row -->
+                        <!-- latest-family-row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <!-- left-side -->
+                                    <div class="col-md-6">
+                                        <h2 class="no-margin">Latest News:
+                                            <span class="dark-blue-text">ITV meets the Clarke Family</span>
+                                        </h2>
+                                        <p>
+                                            ITV’s Divya Kohli meets with Tracey Clarke and husband Tim, to see how their lives have been affected through Tracey’s loss of sight and how 7 Families has helped them throughout 2015.
+                                        </p>
+                                        <p class="text-right">
+                                            <a class="dark-blue-text" href="http://www.itv.com/news/meridian/2015-11-19/too-ill-to-earn-charity-warns-of-protecting-our-income/" title="View the Clarke Family video on ITV">View the Clarke Family video on ITV</a>
+                                        </p>
+                                    </div>
+                                    <!-- /.left-side -->
+                                    <!-- right-side -->
+                                    <div class="col-md-6">
+                                        <img class="flex" src="assets/images/img_itv-news-clarke-family.jpg" alt="ITV meets Tracey Clarke and her husband Tim." /><br />
+                                    </div>
+                                    <!-- /.right-side -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.latest-family-row -->
+                    </div>
+                </div>
+                <!-- /.large-video-row -->
+            </div>
+    </div>
+</div>
 
-{% for family in site.families %}
-{{ family.name }}
-{% endfor %}
+
+<div class="container-fluid">
+        <div class="row">
+            <!-- left-col -->
+            <div class="col-md-2 hidden-xs hidden-sm">
+            </div>
+            <!-- /.left-col -->
+            <!-- middle-col -->
+            <div class="col-xs-12 col-md-8">
+<!-- meet-the-families-row -->
+                <div class="row borders">
+                    <div class="col-md-12">
+                        <!-- top-text-row -->
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h2>Meet The Families</h2>
+                            </div>
+                        </div>
+                        <!-- /.top-text-row -->
+                        <!-- families-row -->
+                        <div class="row">
+                            {% for family in site.families %}
+                            <div class="col-md-3">
+                                <a class="orange-text" href="{{ family.url }}" title="Click here to view The Pickford Family page."><img class="flex" src="{{ family.thumbnail }}" alt="The Pickford Family" />
+                                </a>
+                                <a class="orange-text" href="pickford-family.html" title="Click here to view The Pickford Family page.">
+                                    <h2 class="orange-text">
+                                        The {{ family.name }}<br />Family
+                                    </h2>
+                                </a>
+                                <p>
+                                    <a class="orange-text" href="{{ family.url }}" title="Click here to view The Pickford Family page.">View The Family's Page</a>
+                                </p>
+                            </div>
+                            {% endfor %}
+                            <div class="col-md-3">
+                                <a class="pink-text" href="https://www.facebook.com/7Families" rel="external" target="_blank" title="Click here to link to the 7 Families Facebook page. This is an external link."><img class="flex" src="assets/images/img_visit-facebook.jpg" alt="Visit the 7 Families Facebook Page" />
+                                </a>
+                            </div>
+                        </div>
+                        <!-- /.families-row -->
+                    </div>
+                </div>
+                <!-- /.meet-the-families-row -->
+            </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+        <div class="row">
+            <!-- left-col -->
+            <div class="col-md-2 hidden-xs hidden-sm">
+            </div>
+            <!-- /.left-col -->
+            <!-- middle-col -->
+            <div class="col-xs-12 col-md-8">
+<!-- game-advertisement-row -->
+                <div class="row borders">
+                    <div class="col-md-12 text-center">
+                        <h1 class="blue-text blue-large">
+                            How Finvincible are you?
+                        </h1>
+                        <p>
+                            Ever wondered what might be the outcome if something 
+                            <br /> happened which prevented you from working? 
+                        </p>
+                        <p>
+                            Take the 7 Families quiz on Facebook now.
+                        <h1>
+                            <a class="orange-text with-line" href="https://apps.facebook.com/sevenfamilies/" target="_blank" rel="external" title="Click here to link to Facebook and Play The 7 Families Game.">Play Now</a>
+                        </h1>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                </div>
+                <!-- /.game-advertisement-row -->
+            </div>
+    </div>
+</div>
