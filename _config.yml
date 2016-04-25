@@ -8,8 +8,9 @@ collections:
     output: true
     permalink: "/:path-family"
     defaults:
-      values:
-        layout: family
+      -
+        values:
+          layout: family
   posts:
     title: Posts
     output: true
