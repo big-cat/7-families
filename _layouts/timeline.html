@@ -1,0 +1,43 @@
+<!-- wrapper -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- left-col -->
+            <div class="col-md-2 hidden-xs hidden-sm">
+            </div>
+            <!-- /.left-col -->
+            <!-- middle-col -->
+            <div class="col-xs-12 col-md-8">
+<!-- large-video-row -->
+                <div class="row borders">
+                    <div class="col-xs-12">
+                        <!-- top-text-row -->
+                        <div class="row">
+                            <div class="col-md-12 primary-content">
+                                <h1 class="text-center">
+                                    Timeline
+                                </h1>
+                                <h3 class="text-center orange-text">
+                                    The {{ page.title }} Family
+                                </h3>
+                                {% for event in page.event %}
+                                <div class="row timeline orange-row">
+                                    <div class="col-xs-6">
+                                        <h3 class="text-center">{{ event.date }}</h3>
+                                        {{ event.text }}
+                                    </div>
+                                    <div class="col-xs-6">
+                                        {% if event.image %}
+                                        <img class="center-block img-responsive" src="{{ event.image }}" alt="Filming behind the scenes with Paul Pickford">
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <!-- /.top=text-row -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /.large-video-row -->
+                </div>
+                </div>
+                </div>
