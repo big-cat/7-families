@@ -1,6 +1,7 @@
 ---
 title: Norbert
 date: 2016-04-22 15:44:00 Z
+position: 0
 name: Norbert
 thumbnail: "/uploads/thumb_norbert-family.jpg"
 video: https://www.youtube.com/embed/fBN1291o5kQ

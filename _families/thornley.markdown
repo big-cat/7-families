@@ -1,6 +1,7 @@
 ---
 title: Thornley
 date: 2016-04-22 15:44:00 Z
+position: 3
 name: Thornley
 thumbnail: "/uploads/thumb_thornley-family.jpg"
 video: https://www.youtube.com/embed/tVUZLE40EPE

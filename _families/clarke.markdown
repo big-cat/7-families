@@ -1,6 +1,7 @@
 ---
 title: Clarke
 date: 2016-04-22 15:43:00 Z
+position: 4
 name: Clarke
 thumbnail: "/uploads/thumb_clarke-family.jpg"
 video: https://www.youtube.com/embed/lgbjJ20rq0Q
