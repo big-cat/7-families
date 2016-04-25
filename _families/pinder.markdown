@@ -4,6 +4,7 @@ date: 2016-04-22 15:43:00 Z
 name: Pinder
 thumbnail: "/uploads/thumb_pinder-family.jpg"
 video: https://www.youtube.com/embed/ybVZZ_I0rKo
+layout: family
 ---
 
 Daniel Pinder was born deaf in November 1964 (he turns 50 this month) and was also diagnosed with epilepsy while young, neither of which stopped him from working as a rehabilitation officer.
