@@ -20,12 +20,48 @@
   float: none;
 }
 
-.text-cols-2 {
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+@media (min-width: 992px) {
 
-    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 30px; /* Firefox */
-    column-gap: 30px;
+    .text-cols-2 {
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+
+        -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 30px; /* Firefox */
+        column-gap: 30px;
+    }
+    
+}
+
+.odd {
+    background-color: #f39221;
+}
+
+.odd h3 {
+    color: #e52f1b
+}
+
+.odd:nth-of-type(3n) {
+    background-color: #4ebdd9;
+}
+
+.odd:nth-of-type(3n) h3 {
+    color: #124483;
+}
+
+.even {
+    background-color: #eb371e;
+}
+
+.even h3 {
+    color: #f0dd1e;
+}
+
+.even:nth-of-type(4n) {
+    background-color: #124483;
+}
+
+.even:nth-of-type(4n) h3 {
+    color: #f0dd1e;
 }
