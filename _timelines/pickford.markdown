@@ -26,6 +26,14 @@ event:
     that the couple rely on.
   image: 
   video: https://www.youtube.com/embed/RmIJ8ebd7ro
+- date: 2015-03-24 00:00:00.000000000 Z
+  text: As Paul’s rehabilitation progresses, a new piece of equipment allows him to
+    communicate and maintain contact with the world. Eyegaze technology offers a lifeline
+    to Paul and thousands of other adults and children worldwide. As well as enabling
+    the user to access the internet and email amongst other things, Paul can generate
+    speech by typing a message - giving him a voice.
+  image: 
+  video: https://www.youtube.com/embed/cZQ2WlWCuHs
 layout: timeline
 ---
 
