@@ -13,6 +13,12 @@ event:
     Paul suffered a brain stem stroke which turned his world upside down and is now treating recovery as a full time job.
   image: 
   video: https://www.youtube.com/embed/8lxpvI3lk8w
+- date: 2015-02-10 00:00:00.000000000 Z
+  text: We return to Bolton to see Paul's progress at rehab. They are using Seven
+    Families funds to help with the cost of these sessions which are really showing
+    rewards. The pure effort and determination are inspiring.
+  image: 
+  video: https://www.youtube.com/embed/7hSumtPCSms
 layout: timeline
 ---
 
