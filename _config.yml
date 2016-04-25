@@ -7,6 +7,9 @@ collections:
     title: Families
     output: true
     permalink: "/:path-family"
+    defaults:
+    - values:
+        layout: family
   posts:
     title: Posts
     output: true
