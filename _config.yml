@@ -20,3 +20,10 @@ collections:
   uploads:
     title: Uploads
     output: true
+news:
+- title: ITV meets the Clarke Family
+  text: ITV’s Divya Kohli meets with Tracey Clarke and husband Tim, to see how their
+    lives have been affected through Tracey’s loss of sight and how 7 Families has
+    helped them throughout 2015.
+  linktext: View the Clarke Family video on ITV
+  link: http://www.itv.com/news/meridian/2015-11-19/too-ill-to-earn-charity-warns-of-protecting-our-income/
