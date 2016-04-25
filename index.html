@@ -41,19 +41,19 @@ home: true
                                     <!-- left-side -->
                                     <div class="col-md-6">
                                         <h2 class="no-margin">Latest News:
-                                            <span class="dark-blue-text">ITV meets the Clarke Family</span>
+                                            <span class="dark-blue-text">{{ site.news.title }}</span>
                                         </h2>
                                         <p>
-                                            ITV’s Divya Kohli meets with Tracey Clarke and husband Tim, to see how their lives have been affected through Tracey’s loss of sight and how 7 Families has helped them throughout 2015.
+                                            {{ site.news.text }}
                                         </p>
                                         <p class="text-right">
-                                            <a class="dark-blue-text" href="http://www.itv.com/news/meridian/2015-11-19/too-ill-to-earn-charity-warns-of-protecting-our-income/" title="View the Clarke Family video on ITV">View the Clarke Family video on ITV</a>
+                                            <a class="dark-blue-text" href="{{ site.news.link }}" title="{{ site.news.title }}">{{ site.news.linktext }}</a>
                                         </p>
                                     </div>
                                     <!-- /.left-side -->
                                     <!-- right-side -->
                                     <div class="col-md-6">
-                                        <img class="flex" src="assets/images/img_itv-news-clarke-family.jpg" alt="ITV meets Tracey Clarke and her husband Tim." /><br />
+                                        <img class="flex" src="{{ site.news.image }}" alt="{{ site.news.title }}" /><br />
                                     </div>
                                     <!-- /.right-side -->
                                 </div>
