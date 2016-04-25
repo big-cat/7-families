@@ -4,6 +4,7 @@ date: 2016-04-22 15:43:00 Z
 name: Clarke
 thumbnail: "/uploads/thumb_clarke-family.jpg"
 video: https://www.youtube.com/embed/lgbjJ20rq0Q
+layout: family
 ---
 
 The first family to benefit from the project are Tim and Tracey Clarke, who live on a houseboat after financial difficulties forced the sale of the family home.
