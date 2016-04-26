@@ -34,11 +34,11 @@
     
 }
 
-.odd {
+.odd:nth-of-type(1n) {
     background-color: #f39221;
 }
 
-.odd h3 {
+.odd:nth-of-type(1n) h3 {
     color: #e52f1b
 }
 
@@ -50,18 +50,22 @@
     color: #124483;
 }
 
-.even {
+.even:nth-of-type(1n) {
     background-color: #eb371e;
 }
 
-.even h3 {
+.even:nth-of-type(1n) h3 {
     color: #f0dd1e;
 }
 
-.even:nth-of-type(4n) {
+.even:nth-of-type(3n) {
     background-color: #124483;
 }
 
-.even:nth-of-type(4n) h3 {
+.even:nth-of-type(3n) h3 {
     color: #f0dd1e;
+}
+
+a {
+    color: inherit;
 }
