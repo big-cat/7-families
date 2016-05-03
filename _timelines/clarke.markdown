@@ -64,5 +64,6 @@ event:
   text: 
   image: 
   video: 
+layout: timeline
 ---
 
