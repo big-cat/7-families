@@ -7,7 +7,7 @@ event:
     blindness, its a case of all change for Tracey, her husband who have switched
     bricks and mortar for a house boat and guide dog Oakley.'
   image: 
-  video: https://youtu.be/lgbjJ20rq0Q
+  video: https://www.youtube.com/embed/lgbjJ20rq0Q
 - date: 
   text: 
   image: 
