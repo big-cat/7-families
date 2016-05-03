@@ -16,10 +16,7 @@ event:
   image: "/uploads/img_placeholder-clarke-family.png"
   video: 
 - date: 2014-12-10 00:00:00.000000000 Z
-  text: |-
-    Oakley Cam allows us to get a unique guide dogs eye view
-
-    [Click here to visit Oakley's Facebook page.](https://www.facebook.com/GuideDogOakley)
+  text: Oakley Cam allows us to get a unique guide dogs eye view
   image: "/uploads/img_oakley-guide-dog.jpg"
   video: 
 - date: 2014-12-18 00:00:00.000000000 Z
