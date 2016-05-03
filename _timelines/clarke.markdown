@@ -12,7 +12,7 @@ event:
   text: |-
     Often its the smallest member of a family that gets the most attention - with Oakley the guide dog, there is no exception. He even has his own facebook page. Why not go and see the dogs-eye view.
 
-    [Click here to visit Oakley's Facebook page.](https://www.facebook.com/GuideDogOakley)
+    [Click here to visit Oakley's Facebook page](https://www.facebook.com/GuideDogOakley)
   image: "/uploads/img_placeholder-clarke-family.png"
   video: 
 - date: 2014-12-10 00:00:00.000000000 Z
