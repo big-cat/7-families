@@ -8,13 +8,6 @@ event:
     bricks and mortar for a house boat and guide dog Oakley.'
   image: 
   video: https://www.youtube.com/embed/lgbjJ20rq0Q
-- date: 2014-12-01 00:00:00.000000000 Z
-  text: |-
-    Often its the smallest member of a family that gets the most attention - with Oakley the guide dog, there is no exception. He even has his own facebook page. Why not go and see the dogs-eye view.
-
-    [Click here to visit Oakley's Facebook page.](https://www.facebook.com/GuideDogOakley)
-  image: "/uploads/img_placeholder-clarke-family.png"
-  video: 
 - date: 2014-12-10 00:00:00.000000000 Z
   text: Oakley Cam allows us to get a unique guide dogs eye view
   image: "/uploads/img_oakley-guide-dog.jpg"
@@ -26,6 +19,13 @@ event:
     with just a few simple additions. It's another powerful story chock full of positivity.
   image: 
   video: https://www.youtube.com/embed/Mu62Nc0OgQw
+- date: 2014-12-01 00:00:00.000000000 Z
+  text: |-
+    Often its the smallest member of a family that gets the most attention - with Oakley the guide dog, there is no exception. He even has his own facebook page. Why not go and see the dogs-eye view.
+
+    [Click here to visit Oakley's Facebook page.](https://www.facebook.com/GuideDogOakley)
+  image: "/uploads/img_placeholder-clarke-family.png"
+  video: 
 - date: 2015-01-06 00:00:00.000000000 Z
   text: |-
     Tracey has been putting her laptop to good use and has written a piece for Cover Magazine. It is a personal account of how her life changed and how her family has adapted.
