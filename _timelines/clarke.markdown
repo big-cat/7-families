@@ -8,7 +8,6 @@ event:
     bricks and mortar for a house boat and guide dog Oakley.'
   image: 
   video: https://www.youtube.com/embed/lgbjJ20rq0Q
-- 
 - date: 2014-12-01 00:00:00.000000000 Z
   text: |-
     Often its the smallest member of a family that gets the most attention - with Oakley the guide dog, there is no exception. He even has his own facebook page. Why not go and see the dogs-eye view.
