@@ -57,7 +57,7 @@
                                     </div>
                                     <div class="col-xs-6">
                                         <h3 class="text-center">{{ event.date | date: '%d %B %Y' }}</h3>
-                                        <p>{{ event.text }}</p>
+                                        <p>{{ event.text | markdownify }}</p>
                                     </div>
                                 </div>
                                 {% endif %}
