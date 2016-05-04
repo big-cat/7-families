@@ -44,5 +44,6 @@ event:
     and for the encouragement he’s received from the special connections he's made.
   image: 
   video: https://www.youtube.com/embed/oko0hpPgsIE
+layout: timeline
 ---
 
