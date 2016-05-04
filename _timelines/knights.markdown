@@ -30,5 +30,6 @@ event:
     EDS and how the accompanying fatigue means he has to plan his day accordingly.
   image: 
   video: https://www.youtube.com/embed/_Keu6k5sj4s
+layout: timeline
 ---
 
