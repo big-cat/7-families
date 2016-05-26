@@ -63,6 +63,19 @@ event:
     but at least he seems to be keeping Devon and Louis busy.
   image: 
   video: https://www.youtube.com/embed/u-ugAaXVjKI
+- date: 2016-03-14 00:00:00.000000000 Z
+  text: Nikki talks about the house. The scaffolding’s come down and the building
+    is taking shape. There have been a few hiccups along the way, and there’s still
+    plenty left to do, but everyone’s getting excited about the prospect of moving
+    in in the summer.
+  image: 
+  video: https://www.youtube.com/embed/GxCwFZXPBCU
+- date: 2016-03-14 00:00:00.000000000 Z
+  text: 'It’s all slotting into place for Nikki. The house build is progressing nicely,
+    her family has helped raise the funds for a new lightweight wheelchair, and even
+    puppy Hooper is falling into line. If only Phil hadn’t crashed the car. '
+  image: 
+  video: https://www.youtube.com/embed/v=v4WhjNmERh8
 layout: timeline
 ---
 
