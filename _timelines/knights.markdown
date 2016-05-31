@@ -35,12 +35,12 @@ event:
     specialist help for her condition including both the long distances she had to
     travel and the expense. '
   image: 
-  video: https://www.youtube.com/v=0Ah-kCzi2GM
+  video: https://www.youtube.com/embed/0Ah-kCzi2GM
 - date: 2016-04-11 00:00:00.000000000 Z
   text: In this short film Melanie talks about connecting with fellow EDS patients
     through a local support group, the help she gets and the friends she has made.
   image: 
-  video: https://youtu.be/tI7VavsYKGM
+  video: https://www.youtube.com/embed/tI7VavsYKGM
 layout: timeline
 ---
 
