@@ -30,6 +30,17 @@ event:
     EDS and how the accompanying fatigue means he has to plan his day accordingly.
   image: 
   video: https://www.youtube.com/embed/_Keu6k5sj4s
+- date: 2016-04-15 00:00:00.000000000 Z
+  text: 'In Melanie''s latest film she talks about the problems associated with getting
+    specialist help for her condition including both the long distances she had to
+    travel and the expense. '
+  image: 
+  video: https://www.youtube.com/v=0Ah-kCzi2GM
+- date: 2016-04-11 00:00:00.000000000 Z
+  text: In this short film Melanie talks about connecting with fellow EDS patients
+    through a local support group, the help she gets and the friends she has made.
+  image: 
+  video: https://youtu.be/tI7VavsYKGM
 layout: timeline
 ---
 
