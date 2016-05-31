@@ -58,6 +58,17 @@ event:
     new chapter.
   image: 
   video: https://www.youtube.com/embed/NGA3ny5NaBo
+- date: 2016-04-01 00:00:00.000000000 Z
+  text: 'As part of his back-to-work plan, Graeme is training to become a trainer.
+    The final part of his course involves delivering a presentation. How will he get
+    on? '
+  image: 
+  video: https://www.youtube.com/embed/APyLjGS5H2I
+- date: 2016-04-05 00:00:00.000000000 Z
+  text: Graeme continues to move forward with his life. Now that he’s put his stroke
+    behind him, the time feels right to move in with partner Fiona.
+  image: 
+  video: https://www.youtube.com/embed/0i8By-lDh40
 layout: timeline
 ---
 
