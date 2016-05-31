@@ -2,7 +2,7 @@
 title: Knights
 date: 2016-04-07 15:45:00 Z
 position: 1
-thumbnail: "/uploads/thumb_pickford-family.jpg"
+thumbnail: "/uploads/thumb_knights-family.jpg"
 video: https://www.youtube.com/embed/qjlhMtJMsBo
 layout: family
 ---
