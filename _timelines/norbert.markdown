@@ -44,6 +44,24 @@ event:
     and for the encouragement he’s received from the special connections he's made.
   image: 
   video: https://www.youtube.com/embed/oko0hpPgsIE
+- date: 2016-05-10 00:00:00.000000000 Z
+  text: In his latest short film Paul talks about studying with the open university
+    to gain a degree, what it means to him and how it will help him in the future
+    realise his dream of working with young people.
+  image: 
+  video: https://www.youtube.com/embed/IOSstWTXmhI
+- date: 2016-05-19 00:00:00.000000000 Z
+  text: In his latest film Paul talks about his relationship with stress caused by
+    his bipolar disorder. Here he talks about how he deals with stress and the effect
+    it has on his life.
+  image: 
+  video: www.youtube.com/embed/Z9fFJ8u6d6w
+- date: 2016-05-26 00:00:00.000000000 Z
+  text: Paul Norbert looks back at his time on the 7 Families project. Here he says
+    farewell and discusses how the various support options and the extra finance has
+    helped him with his condition and his return to work.
+  image: 
+  video: https://www.youtube.com/embed/jovOsaIntPs
 layout: timeline
 ---
 
