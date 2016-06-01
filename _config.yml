@@ -30,3 +30,11 @@ news:
   image: "/uploads/img_itv-news-clarke-family.jpg"
   linktext: View the Clarke Family video on ITV
   link: http://www.itv.com/news/meridian/2015-11-19/too-ill-to-earn-charity-warns-of-protecting-our-income/
+game:
+  title: How Finvincible are you?
+  body: |-
+    Ever wondered what might be the outcome if something happened which prevented you from working?
+
+    Take the 7 Families quiz on Facebook now.
+  linktext: Play Now
+  link: https://apps.facebook.com/sevenfamilies/
