@@ -19,6 +19,7 @@ collections:
     defaults:
     - values:
         layout: timeline
+        events: 
   uploads:
     title: Uploads
     output: true
